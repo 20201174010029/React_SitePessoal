@@ -28,19 +28,19 @@ function Cards() {
               src='images/img-3.svg'
               text='Site pessoal intregrando junto com React.'
               label='Meu projeto'
-              path=''
+              path='https://github.com/20201174010029/React_SitePessoal'
             />
             <CardItem
               src='images/img-3.svg'
               text='Jogo da mémoria'
               label='Meu projeto'
-              path='/'
+              path='https://github.com/20201174010029/Jogo_Da_M3moria'
             />
             <CardItem
               src='images/img-3.svg'
               text='Jogo da forca'
               label='Meu projeto'
-              path='/'
+              path='https://github.com/20201174010029/Jogo_Da_Forca'
             />
           </ul>
         </div>
