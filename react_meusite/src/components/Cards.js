@@ -26,20 +26,20 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/img-3.svg'
-              text='Adicionar titulo ainda'
-              label='Dificuldade'
+              text='Site pessoal intregrando junto com React.'
+              label='Meu projeto'
               path=''
             />
             <CardItem
               src='images/img-3.svg'
-              text='Adicionar Titulo ainda'
-              label='Dificuldade'
+              text='Jogo da mémoria'
+              label='Meu projeto'
               path='/'
             />
             <CardItem
               src='images/img-3.svg'
-              text='Dificuldade'
-              label='Dificuldade'
+              text='Jogo da forca'
+              label='Meu projeto'
               path='/'
             />
           </ul>
