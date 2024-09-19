@@ -5,42 +5,41 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Meus Projetos em andamento</h1>
+      <h1>Curiosidades</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Dificuldade e desistência, palavras difernetes, poŕem com
-              significados ao contrario.'
-              label='Dificuldade'
-              path='/services'
+              src='images/img-1.jpg'
+              text='Quando ingressei no IFRN, meu interesse pelo xadrez foi despertado por algumas oportunidades que surgiram. Na SEMADEC, conquistei o 2º lugar, mas, ao participar do Intercampi, não tive a mesma sorte.'
+              path='/'
             />
             <CardItem
               src='images/img-2.jpg'
-              text='Adicionar titulo ainda'
-              label='Dificuldade'
-              path='/services'
+              text='Em momentos vagos e livre, gosto de explorar e assitir pequenos momentos
+              de certos animes.'
+              label='Anime'
+              path=''
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src='images/img-3.svg'
               text='Adicionar titulo ainda'
               label='Dificuldade'
-              path='/services'
+              path=''
             />
             <CardItem
-              src='images/img-4.jpg'
+              src='images/img-3.svg'
               text='Adicionar Titulo ainda'
               label='Dificuldade'
-              path='/products'
+              path='/'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src='images/img-3.svg'
               text='Dificuldade'
               label='Dificuldade'
-              path='/sign-up'
+              path='/'
             />
           </ul>
         </div>

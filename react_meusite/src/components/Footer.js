@@ -25,35 +25,34 @@ function Footer() {
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Sobre Nós</h2>
-            <Link to='/sign-up'>Como funciona</Link>
-            <Link to='/'>Depoimentos</Link>
-            <Link to='/'>Carreiras</Link>
-            <Link to='/'>Investidores</Link>
-            <Link to='/'>Termos de Serviço</Link>
+            <h2>Sobre mim</h2>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
           </div>
           <div className='footer-link-items'>
-            <h2>Fale Conosco</h2>
-            <Link to='/'>Contato</Link>
-            <Link to='/'>Suporte</Link>
-            <Link to='/'>Destinos</Link>
-            <Link to='/'>Patrocínios</Link>
+            <h2>Contratação</h2>
+            <Link to='/'>E-mail</Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Vídeos</h2>
-            <Link to='/'>Enviar Vídeo</Link>
-            <Link to='/'>Embaixadores</Link>
-            <Link to='/'>Agência</Link>
-            <Link to='/'>Influenciador</Link>
+            <h2>Curiosidades</h2>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
           </div>
           <div className='footer-link-items'>
             <h2>Mídias Sociais</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>YouTube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='https://www.instagram.com/deybson_cavalcanti?igsh=MWFtcTdscjN2ODRnYg=='>Instagram</Link>
+            <Link to='https://youtu.be/3EkJyrqeLbs?si=JIEQ18FFbPciy1hT'>YouTube</Link>
+            <Link to='https://github.com/20201174010029'>GitHud</Link>
           </div>
         </div>
       </div>
@@ -62,20 +61,13 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               JD
+              <i class="fa-solid fa-user"></i>
             </Link>
           </div>
           <div className='social-icons'>
             <Link
-              className='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i className='fab fa-facebook-f' />
-            </Link>
-            <Link
               className='social-icon-link instagram'
-              to='/'
+              to='https://www.instagram.com/deybson_cavalcanti?igsh=MWFtcTdscjN2ODRnYg=='
               target='_blank'
               aria-label='Instagram'
             >
@@ -83,19 +75,11 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link youtube'
-              to='/'
+              to='https://youtu.be/3EkJyrqeLbs?si=JIEQ18FFbPciy1hT'
               target='_blank'
               aria-label='Youtube'
             >
               <i className='fab fa-youtube' />
-            </Link>
-            <Link
-              className='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i className='fab fa-twitter' />
             </Link>
             <Link
               className='social-icon-link linkedin'
@@ -104,6 +88,15 @@ function Footer() {
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
+            </Link>
+
+            <Link
+              className='social-icon-link Github'
+              to='https://github.com/20201174010029'
+              target='_blank'
+              aria-label='Github'
+            >
+              <i class="fa-brands fa-square-github"></i>
             </Link>
           </div>
         </div>
