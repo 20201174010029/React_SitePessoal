@@ -13,13 +13,14 @@ function Cards() {
               src='images/img-1.jpg'
               text='Quando ingressei no IFRN, meu interesse pelo xadrez foi despertado por algumas oportunidades que surgiram. Na SEMADEC, conquistei o 2º lugar, mas, ao participar do Intercampi, não tive a mesma sorte.'
               path='/'
+              label='Xadrez'
             />
             <CardItem
               src='images/img-2.jpg'
               text='Em momentos vagos e livre, gosto de explorar e assitir pequenos momentos
               de certos animes.'
               label='Anime'
-              path=''
+              path='/'
             />
           </ul>
           <ul className='cards__items'>
