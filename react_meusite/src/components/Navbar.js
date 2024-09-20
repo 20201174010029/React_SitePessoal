@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -19,6 +18,7 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
+    return () => window.removeEventListener('resize', showButton);
   }, []);
 
   window.addEventListener('resize', showButton);
@@ -27,46 +27,33 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <a href='#home' className='navbar-logo' onClick={closeMobileMenu}>
             JD
-            <i class="fa-solid fa-user"></i>
-          </Link>
+            <i className="fa-solid fa-user"></i>
+          </a>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <a href='#home' className='nav-links' onClick={closeMobileMenu} id="nav-home">
                 Home
-              </Link>
+              </a>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+              <a href='#sobre' className='nav-links' onClick={closeMobileMenu} id="nav-sobre">
                 Sobre mim
-              </Link>
+              </a>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Formação
-              </Link>
+              <a href='#curiosidades' className='nav-links' onClick={closeMobileMenu} id="nav-curiosidades">
+                curiosidades
+              </a>
             </li>
-
             <li className='nav-item'>
-              <Link
-                to='/'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+              <a href='#projetos' className='nav-links' onClick={closeMobileMenu} id="nav-projetos">
                 Projetos realizados
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

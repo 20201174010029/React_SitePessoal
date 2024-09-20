@@ -7,7 +7,7 @@ function Cards() {
   const navigate = useNavigate(); 
 
   return (
-    <div className='cards'>
+    <div className='cards'id='curiosidades'>
       <h1>Curiosidades</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
@@ -44,7 +44,7 @@ function Cards() {
               label='Anime'
             />
           </ul>
-           <h1>Meus projetos</h1>
+           <h1 id='projetos'>Meus projetos</h1>
           <ul className='cards__items'>
             <CardItem
               src='images/img-3.svg'

@@ -6,11 +6,11 @@ import Footer from '../Footer';
 
 function Home() {
   return (
-    <>
+    <div id="home">
       <HeroSection />
       <Cards />
       <Footer />
-    </>
+    </div>
   );
 }
 

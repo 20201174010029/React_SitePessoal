@@ -9,7 +9,6 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Sobre mim</h2>
-            <Link to='/'>Minha Jornada</Link>
             <Link to='/'>Educação</Link>
             <Link to='/'>Experiências</Link>
             <Link to='/'>Habilidades</Link>
@@ -17,7 +16,6 @@ function Footer() {
           </div>
           <div className='footer-link-items'>
             <h2>Contratação</h2>
-            <Link to='/'>E-mail</Link>
             <Link to='/'>Portfólio</Link>
             <Link to='/'>Serviços</Link>
             <Link to='/'>Testemunhos</Link>
