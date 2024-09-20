@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React_SitePessoal/static/css/main.1ad79103.css",
-    "main.js": "/React_SitePessoal/static/js/main.a0e5f7a5.js",
+    "main.css": "/React_SitePessoal/static/css/main.4bdc9fde.css",
+    "main.js": "/React_SitePessoal/static/js/main.cfad8c78.js",
     "static/media/Deybson.jpg": "/React_SitePessoal/static/media/Deybson.98210dc89c6ff13ffc90.jpg",
     "static/media/fa-solid-900.ttf": "/React_SitePessoal/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/React_SitePessoal/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -12,11 +12,11 @@
     "static/media/fa-v4compatibility.ttf": "/React_SitePessoal/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/React_SitePessoal/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/React_SitePessoal/index.html",
-    "main.1ad79103.css.map": "/React_SitePessoal/static/css/main.1ad79103.css.map",
-    "main.a0e5f7a5.js.map": "/React_SitePessoal/static/js/main.a0e5f7a5.js.map"
+    "main.4bdc9fde.css.map": "/React_SitePessoal/static/css/main.4bdc9fde.css.map",
+    "main.cfad8c78.js.map": "/React_SitePessoal/static/js/main.cfad8c78.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ad79103.css",
-    "static/js/main.a0e5f7a5.js"
+    "static/css/main.4bdc9fde.css",
+    "static/js/main.cfad8c78.js"
   ]
 }
