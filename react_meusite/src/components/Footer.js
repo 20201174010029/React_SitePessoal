@@ -1,58 +1,41 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-text'>
-          Deixe seu E-mail para manter contato.
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Digite seu E-mail aqui'
-            />
-            <Button buttonStyle='btn--outline'>Enviar</Button>
-          </form>
-        </div>
-      </section>
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Sobre mim</h2>
-            <Link to='/'></Link>
-            <Link to='/'></Link>
-            <Link to='/'></Link>
-            <Link to='/'></Link>
-            <Link to='/'></Link>
+            <Link to='/'>Minha Jornada</Link>
+            <Link to='/'>Educação</Link>
+            <Link to='/'>Experiências</Link>
+            <Link to='/'>Habilidades</Link>
+            <Link to='/'>Projetos</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Contratação</h2>
             <Link to='/'>E-mail</Link>
-            <Link to='/'></Link>
-            <Link to='/'></Link>
-            <Link to='/'></Link>
+            <Link to='/'>Portfólio</Link>
+            <Link to='/'>Serviços</Link>
+            <Link to='/'>Testemunhos</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Curiosidades</h2>
-            <Link to='/'></Link>
-            <Link to='/'></Link>
-            <Link to='/'></Link>
-            <Link to='/'></Link>
+            <h2>Informações para contato</h2>
+            <Link to='/'>João Deybson</Link>
+            <Link to='/'>Filho.n@escolar.ifrn.edu.br</Link>
+            <Link to='/'>84 994xx-xxxx</Link>
+            <Link to='/'>Ceará-mirim, RN</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Mídias Sociais</h2>
-            <Link to='https://www.instagram.com/deybson_cavalcanti?igsh=MWFtcTdscjN2ODRnYg=='>Instagram</Link>
-            <Link to='https://youtu.be/3EkJyrqeLbs?si=JIEQ18FFbPciy1hT'>YouTube</Link>
-            <Link to='https://github.com/20201174010029'>GitHud</Link>
+            <Link to='https://www.instagram.com/deybson_cavalcanti?igsh=MWFtcTdscjN2ODRnYg==' target='_blank'>Instagram</Link>
+            <Link to='https://youtu.be/3EkJyrqeLbs?si=JIEQ18FFbPciy1hT' target='_blank'>YouTube</Link>
+            <Link to='https://github.com/20201174010029' target='_blank'>GitHub</Link>
           </div>
         </div>
       </div>
@@ -61,7 +44,7 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               JD
-              <i class="fa-solid fa-user"></i>
+              <i className="fa-solid fa-user"></i>
             </Link>
           </div>
           <div className='social-icons'>
@@ -91,12 +74,12 @@ function Footer() {
             </Link>
 
             <Link
-              className='social-icon-link Github'
+              className='social-icon-link github'
               to='https://github.com/20201174010029'
               target='_blank'
               aria-label='Github'
             >
-              <i class="fa-brands fa-square-github"></i>
+              <i className="fa-brands fa-square-github"></i>
             </Link>
           </div>
         </div>
